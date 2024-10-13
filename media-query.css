@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .rightside ul{
+        display: none;
+        background-color: rgb(32, 0, 61);
+       
+    }
+    .leftblock div{
+        font-size: 20px;
+        margin-top: 100px;
+
+    }
+    .aboutus span{
+        font-size: 20px;
+        font-weight: 700;
+        
+    }
+    .rightblock img{
+        width: 350px;
+        height: 350px;
+    } 
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .project-1 {
+        width: 500px;
+        height: 260px;
+        border: 1px solid;
+        border-radius: 1rem;
+        padding: 14px;
+        margin: 12px 0;
+        background: #6b5481;
+    }
+    .project-1 img{
+        width: 180px;
+        height: 180px;
+        float: left;
+        padding: 12px;
+    }
+    
+}    
